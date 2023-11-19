@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap");
+:root{
+  --black: #000;
+  --orange: #E67F1D;
+  --red: #BA2107;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+}
+.navbar-toggler{
+  color: var(--black) !important;
+  border: none !important;
+}
+
+.navbar-toggler:focus{
+ 
+  outline: none !important;
+  box-shadow: none !important;
+}
+.image-logo{
+  width: 22%;
+}
+.header-title{
+  
+  font-weight: 900;
+}
+.hero-header{
+ font-size: clamp(1rem, 2.825rem + 1.2vw, 3.5rem);
+  font-weight: 800;
+}
+.text-orange-highlight{
+  color: var(--orange);
+}
+.text-red-highlight{
+  color: var(--red);
+}
+.cta-btn{
+  background-color: var(--red) !important;
+  border: 1px solid var(--red) !important;
+}
