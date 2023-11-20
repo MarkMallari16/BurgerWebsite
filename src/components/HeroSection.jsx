@@ -21,11 +21,11 @@ const HeroSection = () => {
             </div>
             <div className="mt-3 button-container">
               <Button className="cta-btn btn  text-white">Order Now <FaArrowRightLong />
-</Button>
+              </Button>
             </div>
           </div>
           <div className="col-lg-6  hero-image mt-sm-0 mt-5">
-          <img src={HeroImage3} alt="burger" className=" img-fluid" />
+            <img src={HeroImage3} alt="burger" className=" img-fluid" />
           </div>
         </div>
       </Container>

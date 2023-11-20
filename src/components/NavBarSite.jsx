@@ -19,10 +19,11 @@ const NavBarSite = () => {
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="d-flex align-items-center ms-auto gap-3">
+            <Nav className="d-flex align-items-center ms-auto gap-4">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#features">Menu</Nav.Link>
               <Nav.Link href="#specials">Specials</Nav.Link>
+              <Nav.Link href="#specials">Contact</Nav.Link>
               <Nav.Link href="#orderNow">
                 <Button className=" cta-btn">
                   Order Now <FaArrowRightLong />
