@@ -1,17 +1,16 @@
 import Button from "react-bootstrap/Button";
 import React from "react";
 import { Container } from "react-bootstrap";
-import HeroImage from "../assets/HeroImage.png";
-import HeroImage2 from "../assets/HeroImage2.png";
+import HeroImage3 from "../assets/HeroImage3.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
-    <div className="mt-5 HeroSection">
+    <div className="mt-5 HeroSection text-sm-start text-center">
       <Container>
         <div className="row align-items-center">
           <div className="col-lg-6  hero-content">
-            <div className="hero-header">
+            <div className=" hero-header">
               Discover Flavorful <span className="text-orange-highlight">Delights</span> at <span className="text-red-highlight">PrimeBites!</span>
             </div>
             <div className="fw-light hero-sub-header">
@@ -25,10 +24,8 @@ const HeroSection = () => {
 </Button>
             </div>
           </div>
-          <div className="col-lg-6  hero-image">
-            <div className="image-container w-100">
-              <img src={HeroImage2} alt="burger" className="img-fluid" />
-            </div>
+          <div className="col-lg-6  hero-image mt-sm-0 mt-5">
+          <img src={HeroImage3} alt="burger" className=" img-fluid" />
           </div>
         </div>
       </Container>
