@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap");
+:root {
+  --black: #000;
+  --orange: #e67f1d;
+  --red: #ba2107;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+}
+.NavBarSection {
+
+}
+.navbar-toggler {
+  color: var(--black) !important;
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.image-logo {
+  width: 46%;
+}
+/*Hero Section*/
+.header-title {
+  font-weight: 900;
+}
+.hero-header {
+  font-size: clamp(1rem, 2.825rem + 1.2vw, 3.5rem);
+  font-weight: 800;
+}
+.text-orange-highlight {
+  color: var(--orange);
+}
+.text-red-highlight {
+  color: var(--red);
+}
+.cta-btn {
+  background-color: var(--red) !important;
+  border: 1px solid var(--red) !important;
+}
+/*Menu*/
+section.menu,
+.special-burger {
+  margin-top: 6rem;
+}
+.menu-text-highlight {
+  color: var(--red);
+}
+.card {
+  background-image: linear-gradient(#ff8d82, #ffffff);
+}
+.price {
+  color: var(--orange);
+}
