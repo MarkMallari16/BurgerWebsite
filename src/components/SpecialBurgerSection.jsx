@@ -2,7 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import SpecialMenuCard from "./SpecialMenuCard";
 import { RiStarSFill } from "react-icons/ri";
-
+import Button from "react-bootstrap/Button";
+import { FaArrowRightLong } from "react-icons/fa6";
 const SpecialBurgerSection = () => {
   return (
     <section className="special-burger">
@@ -27,7 +28,10 @@ const SpecialBurgerSection = () => {
                 <RiStarSFill />
               </div>
               +
-
+            </div>
+            <div className="mt-3 button-container">
+              <Button className="cta-btn btn  text-white">Order Now <FaArrowRightLong />
+              </Button>
             </div>
           </div>
         </div>

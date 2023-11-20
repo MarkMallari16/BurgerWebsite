@@ -10,6 +10,7 @@ function App() {
       <HeroSection />
       <Menu />
       <SpecialBurgerSection />
+     
     </>
   );
 }

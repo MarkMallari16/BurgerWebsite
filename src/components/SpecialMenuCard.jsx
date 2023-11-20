@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-import Product1 from "../assets/specialBurgerP2.png";
+import Product1 from "../assets/specialBurgerP3.png";
 const SpecialMenuCard = () => {
     return (
         <>

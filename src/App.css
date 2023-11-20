@@ -38,7 +38,7 @@ body {
   color: var(--orange);
 }
 
-.text-red-highlight{
+.text-red-highlight {
   color: var(--red);
 }
 
@@ -57,15 +57,22 @@ section.menu,
   color: var(--red);
 }
 
-.card-product{
-  
+.card-product {
   background-image: linear-gradient(#ff8d82, #ffffff);
+  cursor: pointer;
+  transition: background-image 0.3s ease-in-out; 
 }
+
+.card-product:hover {
+  background-image: linear-gradient(#e67f1d, #ffffff);
+}
+
 
 .price {
   color: var(--orange);
 }
+
 /*Special Product Section*/
-.stars{
+.stars {
   color: orange;
 }
